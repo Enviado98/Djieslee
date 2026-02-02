@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="es" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO & META -->
-    <title>Djieslee | Trenzas y Estilismo Premium</title>
-    <meta name="description" content="Servicio exclusivo de trenzas, cortes y estilismo en Homestead. Atención personalizada y resultados de alta calidad.">
+    <title>Djieslee | Premium Braids & Styling</title>
+    <meta name="description" content="Exclusive braiding, cuts, and styling service in Homestead. Personalized attention and high-quality results.">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Playfair Display (Elegancia) y Lato (Modernidad) -->
+    <!-- Google Fonts: Playfair Display (Elegance) & Lato (Modern) -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     
-    <!-- Iconos -->
+    <!-- Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <script>
@@ -26,10 +26,10 @@
                         serif: ['Playfair Display', 'serif'],
                     },
                     colors: {
-                        'brand-gold': '#D4AF37',   /* Dorado Premium */
-                        'brand-black': '#111111',  /* Negro Puro */
-                        'brand-gray': '#F9F9F9',   /* Gris muy claro (Fondo) */
-                        'brand-text': '#333333',   /* Gris oscuro (Texto) */
+                        'brand-gold': '#D4AF37',   /* Premium Gold */
+                        'brand-black': '#111111',  /* Pure Black */
+                        'brand-gray': '#F9F9F9',   /* Light Gray Background */
+                        'brand-text': '#333333',   /* Dark Text */
                     },
                     boxShadow: {
                         'elegant': '0 10px 40px -10px rgba(0, 0, 0, 0.08)',
@@ -49,7 +49,7 @@
     </script>
 
     <style>
-        /* Fondo Hero con superposición blanca elegante */
+        /* Hero Background with white overlay */
         .hero-bg {
             background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url('https://raw.githubusercontent.com/Enviado98/Djieslee/main/fondo.jpg');
             background-size: cover;
@@ -57,7 +57,7 @@
             background-attachment: fixed;
         }
 
-        /* Botón Dorado Outline */
+        /* Gold Outline Button */
         .btn-gold-outline {
             border: 1px solid #D4AF37;
             color: #D4AF37;
@@ -69,7 +69,7 @@
             color: white;
         }
 
-        /* Botón Dorado Fill */
+        /* Gold Fill Button */
         .btn-gold-fill {
             background: #D4AF37;
             color: white;
@@ -90,7 +90,7 @@
             transform: translateY(0);
         }
 
-        /* Efecto Hover en Imágenes */
+        /* Image Hover Effect */
         .img-hover {
             overflow: hidden;
         }
@@ -120,16 +120,16 @@
                 </div>
             </a>
 
-            <!-- Botones -->
+            <!-- Buttons -->
             <div class="flex items-center gap-4">
-                <!-- Idioma -->
+                <!-- Language -->
                 <button onclick="toggleLanguage()" class="flex items-center gap-1 text-xs font-bold text-gray-500 hover:text-brand-gold transition-colors tracking-widest uppercase">
-                    <i class="ph-bold ph-globe"></i> <span id="lang-text">ES</span>
+                    <i class="ph-bold ph-globe"></i> <span id="lang-text">EN</span>
                 </button>
                 
                 <a href="tel:+17542769114" class="hidden md:flex btn-gold-fill px-6 py-2 rounded-sm font-bold text-xs tracking-widest shadow-md items-center gap-2">
                     <i class="ph-bold ph-calendar-check"></i>
-                    <span class="lang" data-es="AGENDAR CITA" data-en="BOOK NOW">AGENDAR CITA</span>
+                    <span class="lang" data-en="BOOK NOW" data-es="AGENDAR CITA">BOOK NOW</span>
                 </a>
             </div>
         </div>
@@ -139,44 +139,44 @@
     <header class="hero-bg min-h-screen flex items-center justify-center relative pt-24 pb-12">
         <div class="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             
-            <!-- Texto Principal -->
+            <!-- Main Text -->
             <div class="text-center lg:text-left reveal active z-10">
                 <span class="text-brand-gold font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Homestead, Florida</span>
                 
                 <h1 class="font-serif text-5xl md:text-7xl text-brand-black mb-6 leading-tight">
-                    <span class="lang" data-es="Arte en tu" data-en="Art in your">Arte en tu</span> <br>
+                    <span class="lang" data-en="Art in your" data-es="Arte en tu">Art in your</span> <br>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-600 italic">
-                        <span class="lang" data-es="Cabello" data-en="Hair">Cabello</span>
+                        <span class="lang" data-en="Hair" data-es="Cabello">Hair</span>
                     </span>
                 </h1>
                 
                 <p class="text-lg text-gray-600 mb-10 font-light leading-relaxed max-w-lg mx-auto lg:mx-0 lang" 
-                   data-es="Especialistas en trenzas africanas, cortes modernos y cuidado capilar. Tu estilo, elevado al siguiente nivel."
-                   data-en="Specialists in African braids, modern cuts, and hair care. Your style, elevated to the next level.">
-                   Especialistas en trenzas africanas, cortes modernos y cuidado capilar. Tu estilo, elevado al siguiente nivel.
+                   data-en="Specialists in African braids, modern cuts, and hair care. Your style, elevated to the next level."
+                   data-es="Especialistas en trenzas africanas, cortes modernos y cuidado capilar. Tu estilo, elevado al siguiente nivel.">
+                   Specialists in African braids, modern cuts, and hair care. Your style, elevated to the next level.
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
                     <a href="#galeria" class="btn-gold-fill px-8 py-3.5 rounded-sm font-bold shadow-lg flex items-center justify-center gap-2 text-xs uppercase tracking-widest w-full sm:w-auto">
-                        <span class="lang" data-es="VER GALERÍA" data-en="VIEW GALLERY">VER GALERÍA</span>
+                        <span class="lang" data-en="VIEW GALLERY" data-es="VER GALERÍA">VIEW GALLERY</span>
                     </a>
                     
                     <a href="https://maps.app.goo.gl/9ZkX8X5X8X5X8X5" target="_blank" class="btn-gold-outline px-8 py-3.5 rounded-sm font-bold flex items-center justify-center gap-2 text-xs uppercase tracking-widest w-full sm:w-auto">
-                        <span class="lang" data-es="UBICACIÓN" data-en="LOCATION">UBICACIÓN</span>
+                        <span class="lang" data-en="LOCATION" data-es="UBICACIÓN">LOCATION</span>
                     </a>
                 </div>
 
-                <!-- Estado del Local -->
+                <!-- Status -->
                 <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
                     <span class="relative flex h-3 w-3">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                     </span>
-                    <p class="text-xs font-bold text-brand-black tracking-wider uppercase lang" data-es="ABIERTO: TIEMPO COMPLETO" data-en="OPEN: FULL TIME">ABIERTO: TIEMPO COMPLETO</p>
+                    <p class="text-xs font-bold text-brand-black tracking-wider uppercase lang" data-en="OPEN: FULL TIME" data-es="ABIERTO: TIEMPO COMPLETO">OPEN: FULL TIME</p>
                 </div>
             </div>
 
-            <!-- Imagen Destacada (Estilo Revista) -->
+            <!-- Featured Image (Magazine Style) -->
             <div class="relative z-10 w-full max-w-md mx-auto lg:ml-auto hidden md:block">
                 <div class="relative">
                     <div class="absolute -top-4 -right-4 w-full h-full border-2 border-brand-gold/30 rounded-sm z-0"></div>
@@ -186,55 +186,55 @@
         </div>
     </header>
 
-    <!-- SERVICIOS -->
+    <!-- SERVICES -->
     <section class="py-24 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16 reveal">
-                <span class="text-brand-gold font-serif italic text-lg mb-2 block lang" data-es="Nuestra Especialidad" data-en="Our Specialty">Nuestra Especialidad</span>
-                <h2 class="font-serif text-4xl text-brand-black font-bold uppercase tracking-widest lang" data-es="SERVICIOS" data-en="SERVICES">SERVICIOS</h2>
+                <span class="text-brand-gold font-serif italic text-lg mb-2 block lang" data-en="Our Specialty" data-es="Nuestra Especialidad">Our Specialty</span>
+                <h2 class="font-serif text-4xl text-brand-black font-bold uppercase tracking-widest lang" data-en="SERVICES" data-es="SERVICIOS">SERVICES</h2>
                 <div class="w-12 h-0.5 bg-black mx-auto mt-4"></div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Servicio 1 -->
+                <!-- Service 1 -->
                 <div class="p-8 border border-gray-100 hover:border-brand-gold/50 transition-colors text-center group reveal">
                     <div class="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors text-brand-black">
                         <i class="ph-thin ph-yarn text-3xl"></i>
                     </div>
-                    <h3 class="font-serif text-xl font-bold mb-3 lang" data-es="Trenzas Exclusivas" data-en="Exclusive Braids">Trenzas Exclusivas</h3>
-                    <p class="text-sm text-gray-500 leading-relaxed lang" data-es="Diseños intrincados, box braids, cornrows y estilos personalizados para cada cliente." data-en="Intricate designs, box braids, cornrows and personalized styles for every client.">Diseños intrincados, box braids, cornrows y estilos personalizados para cada cliente.</p>
+                    <h3 class="font-serif text-xl font-bold mb-3 lang" data-en="Exclusive Braids" data-es="Trenzas Exclusivas">Exclusive Braids</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed lang" data-en="Intricate designs, box braids, cornrows and personalized styles for every client." data-es="Diseños intrincados, box braids, cornrows y estilos personalizados para cada cliente.">Intricate designs, box braids, cornrows and personalized styles for every client.</p>
                 </div>
 
-                <!-- Servicio 2 -->
+                <!-- Service 2 -->
                 <div class="p-8 border border-gray-100 hover:border-brand-gold/50 transition-colors text-center group reveal delay-100">
                     <div class="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors text-brand-black">
                         <i class="ph-thin ph-scissors text-3xl"></i>
                     </div>
-                    <h3 class="font-serif text-xl font-bold mb-3 lang" data-es="Cortes de Precisión" data-en="Precision Cuts">Cortes de Precisión</h3>
-                    <p class="text-sm text-gray-500 leading-relaxed lang" data-es="Desvanecidos (fades), líneas limpias y cortes modernos con técnica profesional." data-en="Fades, clean lines and modern cuts with professional technique.">Desvanecidos (fades), líneas limpias y cortes modernos con técnica profesional.</p>
+                    <h3 class="font-serif text-xl font-bold mb-3 lang" data-en="Precision Cuts" data-es="Cortes de Precisión">Precision Cuts</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed lang" data-en="Fades, clean lines and modern cuts with professional technique." data-es="Desvanecidos (fades), líneas limpias y cortes modernos con técnica profesional.">Fades, clean lines and modern cuts with professional technique.</p>
                 </div>
 
-                <!-- Servicio 3 -->
+                <!-- Service 3 -->
                 <div class="p-8 border border-gray-100 hover:border-brand-gold/50 transition-colors text-center group reveal delay-200">
                     <div class="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors text-brand-black">
                         <i class="ph-thin ph-sparkle text-3xl"></i>
                     </div>
-                    <h3 class="font-serif text-xl font-bold mb-3 lang" data-es="Estilismo y Cuidado" data-en="Styling & Care">Estilismo y Cuidado</h3>
-                    <p class="text-sm text-gray-500 leading-relaxed lang" data-es="Tratamientos para el cuidado del cabello y definición de ondas (waves)." data-en="Hair care treatments and wave definition.">Tratamientos para el cuidado del cabello y definición de ondas (waves).</p>
+                    <h3 class="font-serif text-xl font-bold mb-3 lang" data-en="Styling & Care" data-es="Estilismo y Cuidado">Styling & Care</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed lang" data-en="Hair care treatments and wave definition." data-es="Tratamientos para el cuidado del cabello y definición de ondas (waves).">Hair care treatments and wave definition.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- GALERÍA (Lookbook) -->
+    <!-- GALLERY (Lookbook) -->
     <section id="galeria" class="py-24 bg-brand-gray border-t border-gray-200">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 reveal">
                 <div>
-                    <h2 class="font-serif text-4xl text-brand-black font-bold uppercase tracking-widest mb-2 lang" data-es="PORTAFOLIO" data-en="PORTFOLIO">PORTAFOLIO</h2>
-                    <p class="text-gray-500 font-light lang" data-es="Resultados reales, clientes felices." data-en="Real results, happy clients.">Resultados reales, clientes felices.</p>
+                    <h2 class="font-serif text-4xl text-brand-black font-bold uppercase tracking-widest mb-2 lang" data-en="PORTFOLIO" data-es="PORTAFOLIO">PORTFOLIO</h2>
+                    <p class="text-gray-500 font-light lang" data-en="Real results, happy clients." data-es="Resultados reales, clientes felices.">Real results, happy clients.</p>
                 </div>
-                <a href="https://wa.me/17542769114" class="text-brand-gold font-bold text-xs uppercase tracking-widest border-b border-brand-gold pb-1 hover:text-black hover:border-black transition-all mt-4 md:mt-0 lang" data-es="RESERVAR MI TURNO" data-en="BOOK MY SPOT">RESERVAR MI TURNO</a>
+                <a href="https://wa.me/17542769114" class="text-brand-gold font-bold text-xs uppercase tracking-widest border-b border-brand-gold pb-1 hover:text-black hover:border-black transition-all mt-4 md:mt-0 lang" data-en="BOOK MY SPOT" data-es="RESERVAR MI TURNO">BOOK MY SPOT</a>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[300px]">
@@ -263,7 +263,7 @@
         </div>
     </section>
 
-    <!-- FOOTER PREMIUM -->
+    <!-- PREMIUM FOOTER -->
     <footer class="bg-brand-black text-white pt-20 pb-10">
         <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-gray-800 pb-12">
             
@@ -271,9 +271,9 @@
             <div>
                 <h3 class="font-serif text-2xl tracking-[0.2em] mb-6">DJIESLEE</h3>
                 <p class="text-gray-400 text-sm leading-relaxed mb-6 font-light lang" 
-                   data-es="Redefiniendo el estilo personal. Un espacio donde la técnica y el arte se unen para resaltar tu mejor versión."
-                   data-en="Redefining personal style. A space where technique and art come together to highlight your best version.">
-                   Redefiniendo el estilo personal. Un espacio donde la técnica y el arte se unen para resaltar tu mejor versión.
+                   data-en="Redefining personal style. A space where technique and art come together to highlight your best version."
+                   data-es="Redefiniendo el estilo personal. Un espacio donde la técnica y el arte se unen para resaltar tu mejor versión.">
+                   Redefining personal style. A space where technique and art come together to highlight your best version.
                 </p>
                 <div class="flex gap-4 text-brand-gold">
                     <a href="#" class="hover:text-white transition-colors"><i class="ph-fill ph-instagram-logo text-xl"></i></a>
@@ -283,7 +283,7 @@
 
             <!-- Contact -->
             <div>
-                <h4 class="font-serif text-sm text-brand-gold uppercase tracking-widest mb-6 lang" data-es="CONTACTO" data-en="CONTACT">CONTACTO</h4>
+                <h4 class="font-serif text-sm text-brand-gold uppercase tracking-widest mb-6 lang" data-en="CONTACT" data-es="CONTACTO">CONTACT</h4>
                 <ul class="space-y-4 text-sm text-gray-300 font-light">
                     <li class="flex items-start gap-3">
                         <i class="ph-thin ph-map-pin text-brand-gold text-lg"></i>
@@ -297,14 +297,14 @@
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="ph-thin ph-clock text-brand-gold text-lg"></i>
-                        <span class="lang" data-es="Abierto Tiempo Completo" data-en="Open Full Time">Abierto Tiempo Completo</span>
+                        <span class="lang" data-en="Open Full Time" data-es="Abierto Tiempo Completo">Open Full Time</span>
                     </li>
                 </ul>
             </div>
 
-            <!-- Mapa -->
+            <!-- Map -->
             <div>
-                <h4 class="font-serif text-sm text-brand-gold uppercase tracking-widest mb-6 lang" data-es="UBICACIÓN" data-en="LOCATION">UBICACIÓN</h4>
+                <h4 class="font-serif text-sm text-brand-gold uppercase tracking-widest mb-6 lang" data-en="LOCATION" data-es="UBICACIÓN">LOCATION</h4>
                 <div class="w-full h-32 rounded-sm overflow-hidden bg-gray-800 border border-gray-700 opacity-80 hover:opacity-100 transition-opacity">
                     <iframe 
                     src="https://maps.google.com/maps?q=13412+SW+287th+Ter,+Homestead,+FL+33033&t=&z=15&ie=UTF8&iwloc=&output=embed" 
@@ -319,12 +319,12 @@
         </div>
 
         <div class="container mx-auto px-6 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-500 uppercase tracking-widest font-bold">
-            <p>&copy; 2026 Djieslee. <span class="lang" data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+            <p>&copy; 2026 Djieslee. <span class="lang" data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
             <p>Premium Hair Studio</p>
         </div>
     </footer>
 
-    <!-- BOTONES FLOTANTES -->
+    <!-- FLOATING BUTTONS -->
     <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
         <!-- Call (Mobile) -->
         <a href="tel:+17542769114" class="md:hidden w-12 h-12 bg-white text-brand-black rounded-full shadow-lg flex items-center justify-center border border-gray-200">
@@ -332,13 +332,13 @@
         </a>
 
         <!-- WhatsApp -->
-        <a href="https://wa.me/17542769114?text=Hola,%20quisiera%20agendar%20una%20cita." target="_blank" class="flex items-center gap-3 bg-brand-black hover:bg-brand-gold text-white px-4 py-3 rounded-sm shadow-xl transition-all group border border-white/10">
-            <span class="font-bold text-xs tracking-widest hidden group-hover:block uppercase lang" data-es="CONSULTAR" data-en="INQUIRE">CONSULTAR</span>
+        <a href="https://wa.me/17542769114?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="flex items-center gap-3 bg-brand-black hover:bg-brand-gold text-white px-4 py-3 rounded-sm shadow-xl transition-all group border border-white/10">
+            <span class="font-bold text-xs tracking-widest hidden group-hover:block uppercase lang" data-en="INQUIRE" data-es="CONSULTAR">INQUIRE</span>
             <i class="ph-fill ph-whatsapp-logo text-2xl"></i>
         </a>
     </div>
 
-    <!-- LÓGICA -->
+    <!-- LOGIC -->
     <script>
         // Scroll Reveal
         function reveal() {
@@ -354,17 +354,18 @@
         }
         window.addEventListener("scroll", reveal);
 
-        // Idioma Toggle
+        // Language Toggle (Default EN)
         function toggleLanguage() {
             const btn = document.getElementById('lang-text');
             const currentLang = btn.innerText;
-            const newLang = currentLang === 'ES' ? 'EN' : 'ES';
+            const newLang = currentLang === 'EN' ? 'ES' : 'EN';
             
             btn.innerText = newLang;
 
             document.querySelectorAll('.lang').forEach(el => {
                 const text = el.getAttribute(`data-${newLang.toLowerCase()}`);
                 if (text) {
+                    // Simple fade effect
                     el.style.opacity = 0;
                     setTimeout(() => {
                         el.innerText = text;
